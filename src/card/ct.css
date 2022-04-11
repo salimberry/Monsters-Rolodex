@@ -1,0 +1,17 @@
+.Catme{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    backface-visibility: hidden;
+    background:#0ccac4;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px;
+    height: 250px;
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+
+}
+.Catme:hover{
+    transform: scale(1.05);
+}
